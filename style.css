@@ -1,0 +1,33 @@
+.card {
+    display: inline-block;
+    padding: 2em;
+    background: rgb(224, 168, 212);
+    width: 25%;
+    height: 100px;
+    margin: 1em 0;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin: 1em
+}
